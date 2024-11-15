@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-rest-api-client-side-solution",
+    "id": "0ea5de33-5f3c-487d-9a53-421227316fe2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HelloRestApi description"
+      },
+      "longDescription": {
+        "default": "HelloRestApi description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-rest-api Feature",
+        "description": "The feature that activates elements of the hello-rest-api solution.",
+        "id": "1521e50b-2e6e-4166-9a11-406f4a4cb6d0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-rest-api.sppkg"
+  }
+}
